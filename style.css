@@ -149,3 +149,8 @@ input:hover{
 .cards:hover{
    transform: scale3d(1.1,1.1,1);
 }
+
+.rota{
+    text-align: center;
+    font-size: 25px;
+}
