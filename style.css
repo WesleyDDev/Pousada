@@ -2,11 +2,12 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .topo{
     display: flex;
     height: 35px;
     justify-content: space-between;
-
+    background-color: rgb(255, 255, 255);
 }
 a{
     display: flex;
@@ -48,13 +49,30 @@ nav{
     height: auto;
     border-radius:15px;
     font-size: 25px;
-    background-color: rgba(127, 255, 255, 0.466);
+    background-color: rgba(127, 255, 255, 0.377);
     box-shadow:0 0 10px rgba(0, 0, 0, 0.473);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border:1px solid white;
     
 }
+button{
+    display: flex;
+    margin: 50px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 40px;
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: rgba(74, 228, 177, 0.733);
+}
 
+button:hover{
+    background-color: rgba(12, 177, 114, 0.637);
+    color: rgb(247, 247, 247);
+}
 
 span{
     color: black;
